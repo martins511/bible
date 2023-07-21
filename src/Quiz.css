@@ -1,0 +1,44 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+}
+
+.container{
+    background-color: lightblue;
+    height: 500px;
+    width: 400px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.question input{
+    width: 99%;
+    height: 50px;
+    border: 1px solid white;
+    margin-top: 0px;
+    border-radius: 5px;
+
+}
+.quizsummarycontainer{
+    background-color: aqua;
+    height: 130px;
+    width: 39%;
+    position: absolute;
+    top: 150px;
+    left: 33%;
+    border-radius: 10px;
+
+}
+.remove{
+    display: none;
+}
+
+.start{
+    background-color: lightgreen;
+    height: 400px;
+    width: 60%;
+    border-radius: 5px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
